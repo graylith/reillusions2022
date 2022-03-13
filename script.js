@@ -21,7 +21,7 @@ async function setupTrash() {
     .then(data => data.count)
   // moneyElem.innerText = currencyFormatter.format(amountRaised)
   moneyElem.innerText = "Under Construction !!"
-  moneyElem.style.fontSize = "100px"
+  //moneyElem.style.fontSize = "100px"
   const amountLeftToRaise = Math.max(MAX_MONEY_RAISED - amountRaised, 0)
   const stringifiedAmount = trashFormatter.format(amountLeftToRaise)
   const trashAmount = {
